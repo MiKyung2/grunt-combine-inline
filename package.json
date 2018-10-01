@@ -1,0 +1,41 @@
+{
+  "name": "grunt-combine-inline",
+  "description": "The best Grunt plugin ever.",
+  "version": "1.0.11",
+  "homepage": "https://github.com/sharekim/grunt-html-inliner",
+  "author": {
+    "name": "jungmk",
+    "email": "123jmk44@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sharekim/grunt-html-inliner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharekim/grunt-html-inliner/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sharekim/grunt-html-inliner/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}
